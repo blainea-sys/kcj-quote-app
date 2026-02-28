@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: jewelry-quote-app
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.headless=true --server.address=0.0.0.0 --server.port=$PORT
+    envVars:
+      - key: QUOTE_DATA_DIR
+        value: /opt/render/project/src/persist
+    disks:
+      - name: quote-data
+        mountPath: /opt/render/project/src/persist
+        sizeGB: 1

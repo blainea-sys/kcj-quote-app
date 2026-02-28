@@ -1,0 +1,31 @@
+{
+  "store": {
+    "name": "Kizer Cummings Jewelers",
+    "phone": "",
+    "email": "",
+    "address": ""
+  },
+  "tax_rate": 0.0935,
+  "deposit_rate": 0.5,
+  "rounding": "nearest_5",
+  "metals_retail_per_dwt": {
+    "Silver": 55.0,
+    "10K": 340.0,
+    "14K Yellow": 477.0,
+    "14K White": 477.0,
+    "18K": 612.0,
+    "PLAT 950": 455.0
+  },
+  "platinum_density_ratio": 1.38,
+  "platinum_extra_fee": 250.0,
+  "output": {
+    "currency_symbol": "$",
+    "quote_valid_days": 14,
+    "max_images_on_customer_page": 6
+  },
+  "admin_pin": "8675309",
+  "quote_counter": {
+    "year": 2026,
+    "next": 1
+  }
+}
